@@ -2,21 +2,14 @@
 
 namespace Drupal\Tests\domain_alias\Functional;
 
-use Drupal\Tests\BrowserTestBase;
+use Drupal\Tests\domain\Functional\DomainTestBase;
 
 /**
  *
  *
  * @group domain_alias
  */
-class DomainAliasInstall extends BrowserTestBase {
-
-  /**
-   * Modules to enable.
-   *
-   * @var array
-   */
-  public static $modules = ['domain'];
+class DomainAliasInstall extends DomainTestBase {
 
   /**
    * {@inheritdoc}
